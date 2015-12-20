@@ -30,7 +30,7 @@ while len(passwords) >= 1:									# while there are passwords left in list
 	diff = int(float(raw_input("What is the likeness? ")))					# input number of similar characters 
 	for words in passwords:
 		tempcomp = compare(tempchoice, words)						# compare with each password
-		print "There are %s similarities between %s and %s!" % (tempcomp, tempchoice, words)
+#		print "There are %s similarities between %s and %s!" % (tempcomp, tempchoice, words)
 		if diff == tempcomp:
 			newpasswords.append(words)
 	passwords = newpasswords
